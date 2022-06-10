@@ -9,6 +9,15 @@ body {
 html {
 	overflow-x: hidden;
 }
+.cmt-2 {
+	margin-top: 1vh;
+}
+.cmt-4 {
+	margin-top: 3.5vh;
+}
+.cmt-5 {
+	margin-top: 6.5vh;
+}
 .cfs-1 {
 	font-size: 4.1vh;
 }
@@ -41,7 +50,7 @@ html {
 }
 .start {
 	width: 140vh;
-	margin-left: 8vh;
+	margin-left: 9vh;
 	position: absolute;
 	transition: 0.2s;
 	animation: start 1.25s ease-in-out;
@@ -214,20 +223,20 @@ html {
 .vk {
 	background-image: url(images/vk.png);
 	background-size: 100% 100%;
-	width: 5vh;
-	height: 5vh;
+	width: 5.5vh;
+	height: 5.5vh;
 }
 .tg {
 	background-image: url(images/tg.png);
 	background-size: 100% 100%;
-	width: 5vh;
-	height: 5vh;
+	width: 5.5vh;
+	height: 5.5vh;
 }
 .gh {
 	background-image: url(images/gh.png);
 	background-size: 100% 100%;
-	width: 5vh;
-	height: 5vh;
+	width: 5.5vh;
+	height: 5.5vh;
 }
 .big-line {
 	width: 35%;
