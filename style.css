@@ -41,7 +41,7 @@ html {
 }
 .start {
 	width: 140vh;
-	margin-left: 6.5vh;
+	margin-left: 8vh;
 	position: absolute;
 	transition: 0.2s;
 	animation: start 1.25s ease-in-out;
