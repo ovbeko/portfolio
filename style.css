@@ -1,13 +1,13 @@
+@font-face {
+	font-family: "cewa";
+	src: url("bold.otf");
+}
 body {
 	margin: 0;
 	font-family: cewa;
 }
 html {
-	overflow-x: hidde
-}
-@font-face {
-	font-family: "cewa";
-	src: url("bold.otf");
+	overflow-x: hidden;
 }
 .cfs-1 {
 	font-size: 4.1vh;
