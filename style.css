@@ -9,13 +9,28 @@ body {
 html {
 	overflow-x: hidden;
 }
+.cborder-2 {
+	border: 0.3vh solid #FF5851;
+}
+.cborder-3 {
+	border: 0.5vh solid #FF5851;
+}
+.cmt-1 {
+	margin-top: 1vh;
+}
 .cmt-2 {
 	margin-top: 1vh;
+}
+.cmt-3 {
+	margin-top: 3vh
 }
 .cmt-4 {
 	margin-top: 3.5vh;
 }
 .cmt-5 {
+	margin-top: 6.5vh;
+}
+.cmt2-5 {
 	margin-top: 6.5vh;
 }
 .cfs-1 {
@@ -67,7 +82,7 @@ html {
 }
 .hide {
 	height: 75vh;
-	width: 12.2vh;
+	width: 15vh;
 	margin-top: 12.6vh;
 	margin-left: 178vh;
 	position: absolute;
