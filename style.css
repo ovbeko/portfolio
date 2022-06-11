@@ -12,8 +12,12 @@ html {
 .slot-height {
 	height: 40vh;
 }
+.my-projects {
+	margin-left: 0.1vh;
+}
 .about-me {
-	height: 35vh
+	height: 35vh;
+	margin-left: 0.1vh;
 }
 .name-status {
 	border: 0.3vh;
