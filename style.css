@@ -9,11 +9,21 @@ body {
 html {
 	overflow-x: hidden;
 }
-.cborder-2 {
-	border: 0.3vh solid #FF5851;
+.slot-height {
+	height: 40vh;
 }
-.cborder-3 {
-	border: 0.5vh solid #FF5851;
+.about-me {
+	height: 35vh
+}
+.name-status {
+	border: 0.3vh;
+	height: 12.5vh;
+}
+.ccol-6 {
+	width: 50%;
+}
+.cpt-5 {
+	padding-top: 5.5vh;
 }
 .cmt-1 {
 	margin-top: 1vh;
@@ -30,9 +40,6 @@ html {
 .cmt-5 {
 	margin-top: 6.5vh;
 }
-.cmt2-5 {
-	margin-top: 6.5vh;
-}
 .cfs-1 {
 	font-size: 4.1vh;
 }
@@ -47,6 +54,15 @@ html {
 }
 .cfs-5 {
 	font-size: 1.925vh;
+}
+.cborder-start {
+	border-left: 0.3vh solid white;
+}
+.cborder-2 {
+	border: 0.3vh solid #FF5851;
+}
+.cborder-3 {
+	border: 0.5vh solid #FF5851;
 }
 .nowrap {
 	white-space: nowrap;
@@ -235,23 +251,22 @@ html {
 .hover-icon:hover {
 	transform: scale(1.15);
 }
+.contact-icon {
+	width: 5.5vh;
+	height: 5.5vh;
+	margin-left: 2.6vh;
+}
 .vk {
 	background-image: url(images/vk.png);
 	background-size: 100% 100%;
-	width: 5.5vh;
-	height: 5.5vh;
 }
 .tg {
 	background-image: url(images/tg.png);
 	background-size: 100% 100%;
-	width: 5.5vh;
-	height: 5.5vh;
 }
 .gh {
 	background-image: url(images/gh.png);
 	background-size: 100% 100%;
-	width: 5.5vh;
-	height: 5.5vh;
 }
 .big-line {
 	width: 35%;

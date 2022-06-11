@@ -6,16 +6,185 @@
 	<title>Nava</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		@media (max-width: 576px) {
+			.nava {
+				display: none;
+			}
+			.nava-dot {
+				display: none;
+			}
+			.line {
+				display: none;
+			}
+			.hide {
+				display: none;	
+			}
+			.start {
+				width: 100%;
+				margin-left: 0vh;
+				animation: start 1.25s ease-in-out;
+			    animation-direction: normal;
+			}
+			@keyframes start {
+			  0% {
+			  	margin-left: 23.5vh;
+			    width: 1%;
+			  }
+			  100% {
+			    
+			  }
+			}
+			.cfs-1 {
+				font-size: 2.8vh;
+			}
+			.cfs-2 {
+				font-size: 2.4vh;
+			}
+			.cfs-3 {
+				font-size: 2vh;
+			}
+			.cfs-4 {
+				font-size: 1.6vh;
+			}
+			.cfs-5 {
+				font-size: 1.2vh;
+			}
+			.ava-img {
+				width: 15vh;
+				height: 15vh;
+				margin-left: 2vh;
+			}
+			.cpt-5 {
+				padding-top: 2vh;
+			}
+			.name-status {
+				height: 8vh;
+			}
+			.ccol-5 {
+				width: 18vh;
+			}
+			.contact-icon {
+				width: 4vh;
+				height: 4vh;
+				margin-left: 1.5vh;
+			}
+			.big-line {
+				width: 20%;
+				height: 1.5vh;
+				margin-top: 1vh;
+			}
+			.big-line-2 {
+				width: 20%;
+				height: 1.5vh;
+				margin-top: 1vh;
+			}
+			.ccol-6 {
+				width: 100%;
+			}
+			.about-me {
+				height: 16vh;
+				margin-left: 0.1vh;
+			}
+			.big-about-me {
+				height: 42.5vh
+			}
+			.cmt-s {
+				margin-top: 1vh;
+			}
+			.op-text {
+				animation: op-text 2s ease-in-out;
+			}
+			.op-text-2 {
+				animation: op-text 2.5s ease-in-out;
+			}
+			.op-text-3 {
+				animation: op-text 2.75s ease-in-out;
+			}
+			.op-text-4 {
+				animation: op-text 3s ease-in-out;
+			}
+			.op-text-5 {
+				animation: op-text 3.25s ease-in-out;
+			}
+			.c-mini-line {
+				animation: c-mini-line 1.75s ease-in-out;
+				border-bottom: 0.3vh solid white;
+			}
+			@keyframes c-mini-line {
+				0% {
+					width: 0;
+					opacity: 0;
+				}
+				50% {
+					width: 0;
+					opacity: 0;
+				}
+				100% {
+
+				}
+			}
+			.c-mini-line-2 {
+				animation: c-mini-line-2 1.9s ease-in-out;
+				border-bottom: 0.3vh solid white;
+			}
+			@keyframes c-mini-line-2 {
+				0% {
+					width: 0;
+					opacity: 0;
+				}
+				50% {
+					width: 0;
+					opacity: 0;
+				}
+				100% {
+
+				}
+			}
+			.cborder-start {
+				border-left: 0vh solid white;
+			}
+			.cmt-1 {
+				margin-top: 1vh;
+			}
+			.cmt-2 {
+				margin-top: 1vh;
+			}
+			.cmt-3 {
+				margin-top: 1.75vh
+			}
+			.cmt-4 {
+				margin-top: 3.5vh;
+			}
+			.cmt-5 {
+				margin-top: 2.5vh;
+			}
+			.dc {
+				height: 18vh;
+				width: 100%;
+			}
+			.genshin {
+				height: 18vh;
+				width: 100%;
+			}
+			.slot-height {
+				height: 30vh;
+			}
+			.my-projects {
+				margin-left: 0.1vh;
+			}
+		}
+	</style>
 </head>
 <body>
 	<div>
 		<div class="bg-dart start">
-			<div class="col-12 d-flex" style="padding-top: 5.5vh;">
-				<div class="col-3">
+			<div class="col-12 cpt-5 d-flex">
+				<div class="col-3 ccol-5">
 					<div class="cborder-3 ava-img"></div>
 				</div>
 				<div class="col">
-					<div class="border-bottom col-5 mini-line" style="border: 0.3vh; height: 12.5vh;">
+					<div class="border-bottom col-5 ccol-5 mini-line name-status">
 						<div>
 							<span class="cfs-1 text-white nowrap op-text">Ignat Veshnikov</span>
 						</div>
@@ -24,29 +193,29 @@
 						</div>
 					</div>
 					<div class="col-12">
-						<div class="col-12 d-flex op-text" style="margin-top: 3vh">
+						<div class="col-12 d-flex cmt-3 op-text">
 							<span class="cfs-4 text-white op-text" style="margin-top: 0.7vh">contact:</span>
-							<a href="https://vk.com/chmohha" class="hover-icon vk cborder-2" style="margin-left: 2.6vh;"></a>
-							<a href="https://t.me/navaov" class="hover-icon tg cborder-2" style="margin-left: 2.6vh;"></a>
-							<a href="https://github.com/ovbeko" class="hover-icon gh cborder-2" style="margin-left: 2.6vh;"></a>
+							<a href="https://vk.com/chmohha" class="contact-icon hover-icon vk cborder-2"></a>
+							<a href="https://t.me/navaov" class="contact-icon hover-icon tg cborder-2"></a>
+							<a href="https://github.com/ovbeko" class="contact-icon hover-icon gh cborder-2"></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 cmt-5">
+			<div class="col-12 cmt-5 big-about-me">
 				<div class="col-12 d-flex">
 					<div class="bg-red big-line me-auto"></div>
 					<h1 class="text-white op-text-2 cfs-1">about me</h1>
 					<div class="bg-red big-line ms-auto"></div>
 				</div>
-				<div class="col-12 d-flex cmt-5" style="height: 35vh">
-					<div class="text-center col" style="height: 100%;">
+				<div class="col-12 row cmt-5 about-me">
+					<div class="ccol-6 text-center c-mini-line" style="height: 100%;">
 						<h1 class="text-red cfs-1 op-text-2">Hi, guest!</h1>
 						<p class="cmt-5 text-white cfs-3 op-text-3">
 							My name is Ignat. My nickname is <span class="text-red">nava</span>, many people call me that. I love playing games and watching anime
 						</p>
 					</div>
-					<div class="col text-center border-start border-2 mini-line-2" style="height: 100%;">
+					<div class="ccol-6 text-center cborder-start mini-line-2 cmt-s" style="height: 100%">
 						<h1 class="text-red cfs-1 op-text-2">My humble skills</h1>
 						<p class="cmt-5 text-white cfs-3 op-text-3">
 							html
@@ -66,8 +235,8 @@
 					<h1 class="text-white op-text-3 cfs-1">my projects</h1>
 					<div class="bg-red big-line-2 ms-auto"></div>
 				</div>
-				<div class="col-12 cmt-5 d-flex">
-					<div class="col-6 text-center" style="height: 40vh">
+				<div class="col-12 cmt-5 row my-projects">
+					<div class="ccol-6 text-center slot-height c-mini-line-2">
 						<div>
 							<h1 class="text-red cfs-1 op-text-4">Dead Cells</h1>
 						</div>
@@ -82,7 +251,8 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-6 text-center border-start border-2 mini-line-3" style="height: 40vh">
+					<div class="ccol-6 text-center cborder-start mini-line-3 cmt-s
+					opacity: 0; slot-height">
 						<div>
 							<h1 class="text-red cfs-1 op-text-4">Genshin Impact</h1>
 						</div>
