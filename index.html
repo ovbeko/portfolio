@@ -82,13 +82,6 @@
 			.ccol-6 {
 				width: 100%;
 			}
-			.about-me {
-				height: 16vh;
-				margin-left: 0.1vh;
-			}
-			.big-about-me {
-				height: 42.5vh
-			}
 			.cmt-s {
 				margin-top: 1vh;
 			}
@@ -107,42 +100,11 @@
 			.op-text-5 {
 				animation: op-text 3.25s ease-in-out;
 			}
-			.c-mini-line {
-				animation: c-mini-line 1.75s ease-in-out;
-				border-bottom: 0.3vh solid white;
-			}
-			@keyframes c-mini-line {
-				0% {
-					width: 0;
-					opacity: 0;
-				}
-				50% {
-					width: 0;
-					opacity: 0;
-				}
-				100% {
-
-				}
-			}
-			.c-mini-line-2 {
-				animation: c-mini-line-2 1.9s ease-in-out;
-				border-bottom: 0.3vh solid white;
-			}
-			@keyframes c-mini-line-2 {
-				0% {
-					width: 0;
-					opacity: 0;
-				}
-				50% {
-					width: 0;
-					opacity: 0;
-				}
-				100% {
-
-				}
-			}
 			.cborder-start {
 				border-left: 0vh solid white;
+			}
+			.cborder-end {
+				border-right: 0vh solid white;
 			}
 			.cmt-1 {
 				margin-top: 1vh;
@@ -202,29 +164,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 cmt-5 big-about-me">
+			<div class="col-12 cmt-5">
 				<div class="col-12 d-flex">
 					<div class="bg-red big-line me-auto"></div>
 					<h1 class="text-white op-text-2 cfs-1">about me</h1>
 					<div class="bg-red big-line ms-auto"></div>
 				</div>
 				<div class="col-12 row cmt-5 about-me">
-					<div class="ccol-6 text-center c-mini-line" style="height: 100%;">
+					<div class="ccol-6 text-center cborder-end mini-line-2">
 						<h1 class="text-red cfs-1 op-text-2">Hi, guest!</h1>
 						<p class="cmt-5 text-white cfs-3 op-text-3">
 							My name is Ignat. My nickname is <span class="text-red">nava</span>, many people call me that. I love playing games and watching anime
 						</p>
 					</div>
-					<div class="ccol-6 text-center cborder-start mini-line-2 cmt-s" style="height: 100%">
+					<div class="ccol-6 text-center">
 						<h1 class="text-red cfs-1 op-text-2">My humble skills</h1>
 						<p class="cmt-5 text-white cfs-3 op-text-3">
-							html
-						</p>
-						<p class="text-white cfs-3 op-text-3">
-							css
-						</p>
-						<p class="text-white cfs-3 op-text-3">
-							bootstrap
+							html, css , bootstrap
 						</p>
 					</div>
 				</div>
@@ -236,7 +192,7 @@
 					<div class="bg-red big-line-2 ms-auto"></div>
 				</div>
 				<div class="col-12 cmt-5 row my-projects">
-					<div class="ccol-6 text-center slot-height c-mini-line-2">
+					<div class="ccol-6 text-center cborder-end mini-line-3 cmt-s">
 						<div>
 							<h1 class="text-red cfs-1 op-text-4">Dead Cells</h1>
 						</div>
@@ -251,7 +207,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="ccol-6 text-center cborder-start mini-line-3 cmt-s slot-height">
+					<div class="ccol-6 text-center cmt-s">
 						<div>
 							<h1 class="text-red cfs-1 op-text-4">Genshin Impact</h1>
 						</div>

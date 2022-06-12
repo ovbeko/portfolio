@@ -9,14 +9,10 @@ body {
 html {
 	overflow-x: hidden;
 }
-.slot-height {
-	height: 42.5vh;
-}
 .my-projects {
 	margin-left: 0.1vh;
 }
 .about-me {
-	height: 35vh;
 	margin-left: 0.1vh;
 }
 .name-status {
@@ -58,6 +54,9 @@ html {
 }
 .cfs-5 {
 	font-size: 1.925vh;
+}
+.cborder-end {
+	border-right: 0.3vh solid white;
 }
 .cborder-start {
 	border-left: 0.3vh solid white;
@@ -303,10 +302,10 @@ html {
 }
 @keyframes mini-line-2 {
 	0% {
-		height: 0;
+		opacity: 0;
 	}
 	50% {
-		height: 0;
+		opacity: 0;
 	}
 	100% {
 
