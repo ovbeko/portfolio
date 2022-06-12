@@ -316,7 +316,7 @@ html {
 	background-size: 100% 100%;
 	background-position: center;
 	height: 25vh;
-	width: 100%;
+	width: 45vh;
 	transition: 0.4s;
 }
 .dc:hover {
@@ -327,7 +327,7 @@ html {
 	background-size: 100% 100%;
 	background-position: center;
 	height: 25vh;
-	width: 100%;
+	width: 45vh;
 	transition: 0.4s;
 }
 .genshin:hover {
